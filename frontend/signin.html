@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./signin.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Italiana:wght@400&display=swap"
+    />
+    <style>
+      .frame-wrapper {
+        display: inline-block; /* Change display to inline-block */
+        background-color: #fff;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        padding: 10px 20px; /* Adjust padding */
+        margin: auto;
+        margin-top: 20px;
+      }
+
+      .google-icon {
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle; /* Align icon vertically */
+        margin-right: 10px; /* Add right margin for spacing */
+      }
+
+      @media only screen and (max-width: 600px) {
+        .frame-wrapper {
+          padding: 8px 16px; /* Adjust padding for smaller screens */
+          margin-top: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="desktop">
+      <header class="namelogo">
+        <div class="citadel-parent">
+          <a class="citadel">Citadel</a>
+          <div class="citadel-text">
+            <img class="citadel-1-icon" src="public/citadel-11@2x.png" alt="" />
+          </div>
+        </div>
+      </header>
+      <div class="desktop-inner">
+        <div class="frame-parent">
+          <div class="sign-in-parent">
+            <h1 class="sign-in">Sign In</h1>
+            <div class="dont-have-an-container">
+              <span>Dont have an account?</span>
+              <span class="create-one"> Create One</span>
+            </div>
+          </div>
+          <div class="text">
+            <div class="email">Email</div>
+            <div class="text1">
+              <input
+                class="examplegmailcom"
+                placeholder="example@gmail.com"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="frame-group">
+            <div class="frame-container">
+              <div class="password-parent">
+                <div class="password">Password</div>
+                <div class="login-label-parent">
+                  <div class="login-label">
+                    <input class="mn" placeholder="m@!N" type="text" />
+
+                    <img class="m-n-icon"  src="public/input-label@2x.png" />
+                  </div>
+                  <div class="checkbox">
+                    <div class="sign-in-button-parent">
+                      <input class="sign-in-button" type="checkbox" />
+
+                      <div class="remember-me">Remember me</div>
+                    </div>
+                    <div class="forgot-passsword">Forgot password</div>
+                  </div>
+                </div>
+              </div>
+              <button class="sign-in-btn">
+                <b class="sign-in1">Sign In </b>
+              </button>
+            </div>
+            <div class="sign-in-alternative">
+              <div class="o-r-label"></div>
+              <div class="or">or</div>
+              <div class="o-r-label1"></div>
+            </div>
+            <button class="frame-wrapper">
+              <img class="google-icon" src="./public/google@2x.png" alt="" />
+
+              <div class="continue-with-google">Continue with Google</div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
